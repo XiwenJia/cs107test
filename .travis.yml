@@ -5,6 +5,6 @@ before_install:
     - pip install pytest pytest-cov
     - pip install codecov
 script:
-    - pytest --cov=./ -t d1167709-c3fa-4254-b53c-a6f187493d2e
+    - pytest --cov=./ 
 after_success:
     - codecov    - pytest
